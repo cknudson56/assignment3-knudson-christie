@@ -150,7 +150,8 @@ h3.widget-title {
 }
 
 footer.textwidget p {
-  text-align: center;
+  text-align: center !important;
+  color: white !important;
 }
 
 p.credits {
@@ -177,7 +178,7 @@ p.credits {
       padding-right: 15%;
   }
   footer.textwidget p {
-    text-align: right;
+    text-align: right !important;
     padding-right: 15%;
   }
 }
