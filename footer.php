@@ -16,9 +16,9 @@
       <?php dynamic_sidebar('right-footer'); ?>
     </div>
   </div>
-  
+
   <div>
-    <p>Created by: Christie Knudson</p>
+    <p class="credits">Created by: Christie Knudson</p>
   </div>
 </footer>
 
