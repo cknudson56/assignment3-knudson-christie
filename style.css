@@ -70,6 +70,14 @@ h1, h2 {
 header h2 {
   max-width: 300px;
 }
+ul#menu-header-menu {
+    display: flex;
+    justify-content: space-around;
+}
+ul#menu-header-menu li {
+ list-style: none;
+}
+
 .index-row {
   padding-top: 30px !important;
 }
@@ -120,6 +128,9 @@ footer p {
 
 @media (max-width: 799px) {
   header div.five.columns {
+    width: 100% !important;
+  }
+  header div.seven.columns {
     width: 100% !important;
   }
   header h2 {
