@@ -53,9 +53,6 @@ a:hover {
 h1 {
     font-size: 3rem;
 }
-h2 {
-    font-size: 2rem;
-}
 
 header {
   padding-top: 50px;
@@ -69,13 +66,16 @@ h1, h2 {
 }
 header h2 {
   max-width: 300px;
+  font-size: 2rem;
 }
 ul#menu-header-menu {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 ul#menu-header-menu li {
  list-style: none;
+ font-family: 'Francois One', sans-serif;
+ font-size: 2rem;
 }
 
 .index-row {
@@ -92,6 +92,10 @@ ul#menu-header-menu li {
 
 .one-half.column.posts {
   padding: 15px;
+}
+
+.page-list ul li {
+  font-family: 'Oswald', sans-serif;
 }
 
 footer {
@@ -115,7 +119,7 @@ footer p {
 
 @media (min-width: 800px) {
   header h1, header h2{
-    padding-left: 20px;
+    padding-left: 15%;
     text-align: left;
   }
 }
