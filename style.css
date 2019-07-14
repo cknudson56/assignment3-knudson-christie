@@ -50,6 +50,13 @@ a:hover {
   color: #FFC857;
 }
 
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+
 header {
   padding-top: 50px;
   padding-bottom: 25px;
