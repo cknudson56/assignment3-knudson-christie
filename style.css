@@ -98,7 +98,7 @@ footer p {
   margin-top: 25px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 905px) {
   header h1, header h2{
     padding-left: 20px;
     text-align: left;
@@ -108,6 +108,12 @@ footer p {
 @media (min-width: 950px) {
   .index-row {
     padding-left: 50px;
+  }
+}
+
+@media (max-width: 904px) {
+  header.five.columns {
+    width: 100%;
   }
 }
 
