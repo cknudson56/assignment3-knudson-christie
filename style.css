@@ -94,9 +94,9 @@ ul#menu-header-menu li {
   padding: 15px;
 }
 
-.container.div.space-updown {
-  padding-bottom: 175px;
-  padding-top: 50px;
+.space-updown {
+  padding-bottom: 175px !important;
+  padding-top: 50px !important;
 }
 
 .page-list ul li {
