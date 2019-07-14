@@ -116,13 +116,13 @@ footer {
 
 ul#menu-footer-menu {
     display: flex;
+    justify-content: space-around;
 }
 
 ul#menu-footer-menu li {
   list-style: none;
   font-family: 'Francois One', sans-serif;
   font-size: 1.5rem;
-  padding-left: 15%;
 }
 
 ul#menu-footer-menu li a {
@@ -172,6 +172,9 @@ p.credits {
   }
   h2.page-title, h3, h4, h5, h6 {
     text-align: left;
+  }
+  ul#menu-footer-menu li {
+    padding-left: 15%;
   }
   h3.widget-title {
       text-align: right;
