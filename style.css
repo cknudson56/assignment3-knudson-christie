@@ -86,7 +86,7 @@ ul#menu-header-menu li {
   margin-top: 10px;
 }
 
-.column, .columns {
+.index-row.column {
   margin: 0% !important;
 }
 
