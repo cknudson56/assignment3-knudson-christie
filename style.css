@@ -1,0 +1,121 @@
+/*
+  Theme Name: Assignment 2
+  Theme URI:
+  Author: Christie Knudson
+  Description: This is the theme for assignment 2 in MMC6145
+   Version: 1.0
+   License: Open
+   Text Domain: assignment2-knudson-christie
+
+*/
+
+@import url("css/normalize.css");
+@import url("css/skeleton.css");
+
+/*
+font-family: 'Francois One', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+
+body {
+  background-color: #EBF2FA;
+}
+
+.container {
+  background-color: #FFFFFF;
+  padding: 0 25px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: #2E4052;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Francois One', sans-serif;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+}
+
+a {
+  color: #2E4052;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFC857;
+}
+
+header {
+  padding-top: 50px;
+  padding-bottom: 25px;
+  background-color: #BDD9BF;
+  width: 100%;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.index-row {
+  padding-top: 30px !important;
+}
+
+.posts {
+  margin-top: 10px;
+}
+
+.column, .columns {
+  margin: 0% !important;
+}
+
+.one-half.column.posts {
+  padding: 15px;
+}
+
+footer {
+  padding-top: 25px;
+  padding-bottom: 50px;
+  background-color: #2E4052;
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+  color: #EBF2FA;
+}
+
+.post-feature img{
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
+
+@media (min-width: 800px) {
+  header h1 {
+    padding-left: 20px;
+    text-align: left;
+  }
+
+  header h2 {
+    padding-right: 20px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 950px) {
+  .index-row {
+    padding-left: 50px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 870px) {
+  .one-half.column {
+    width: 100%;
+  }
+}
