@@ -118,7 +118,15 @@ ul#menu-footer-menu li {
   list-style: none;
   font-family: 'Francois One', sans-serif;
   font-size: 1.5rem;
+  padding-left: 20px;
+}
+
+ul#menu-footer-menu li a {
   color: white;
+}
+
+ul#menu-footer-menu li a:hover {
+  color: #FFC857;
 }
 
 footer p {
