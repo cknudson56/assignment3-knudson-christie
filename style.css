@@ -94,6 +94,11 @@ ul#menu-header-menu li {
   padding: 15px;
 }
 
+.container.div.space-updown {
+  padding-bottom: 175px;
+  padding-top: 50px;
+}
+
 .page-list ul li {
   font-family: 'Oswald', sans-serif;
 }
@@ -103,6 +108,10 @@ footer {
   padding-bottom: 50px;
   background-color: #2E4052;
   width: 100%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 footer p {
