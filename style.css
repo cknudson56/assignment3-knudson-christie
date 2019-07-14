@@ -114,6 +114,13 @@ footer {
   left: 0;
 }
 
+ul#menu-footer-menu li {
+  list-style: none;
+  font-family: 'Francois One', sans-serif;
+  font-size: 1.5rem;
+  color: white;
+}
+
 footer p {
   text-align: center;
   color: #EBF2FA;
