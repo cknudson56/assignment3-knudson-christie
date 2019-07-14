@@ -95,7 +95,7 @@ ul#menu-header-menu li {
 }
 
 .space-updown {
-  padding-bottom: 175px !important;
+  padding-bottom: 200px !important;
   padding-top: 50px !important;
 }
 
@@ -105,7 +105,7 @@ ul#menu-header-menu li {
 
 footer {
   padding-top: 25px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   background-color: #2E4052;
   width: 100%;
   position: fixed;
@@ -114,11 +114,15 @@ footer {
   left: 0;
 }
 
+ul#menu-footer-menu {
+    display: flex;
+}
+
 ul#menu-footer-menu li {
   list-style: none;
   font-family: 'Francois One', sans-serif;
   font-size: 1.5rem;
-  padding-left: 20px;
+  padding-left: 15%;
 }
 
 ul#menu-footer-menu li a {
@@ -127,6 +131,26 @@ ul#menu-footer-menu li a {
 
 ul#menu-footer-menu li a:hover {
   color: #FFC857;
+}
+
+.widget-footer.widget-middle {
+    display: flex;
+    justify-content: center;
+}
+
+.widget-footer.widget-middle img {
+    height: 75px !important;
+    width: 75px;
+}
+
+h3.widget-title {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.widget-footer.textwidget p {
+  text-align: center;
 }
 
 footer p {
@@ -147,6 +171,12 @@ footer p {
   }
   h2.page-title, h3, h4, h5, h6 {
     text-align: left;
+  }
+  h3.widget-title {
+      text-align: right;
+  }
+  .widget-footer.textwidget p {
+    text-align: right;
   }
 }
 
