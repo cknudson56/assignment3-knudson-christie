@@ -16,7 +16,6 @@
       </div>
       <div class="three columns">
         <?php get_sidebar(); ?>
-        
 
       </div>
     </div>
