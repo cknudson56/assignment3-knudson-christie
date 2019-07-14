@@ -23,6 +23,16 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
   ));
+  //Gallery widget
+  register_sidebar(array(
+    'name'          => ('Gallery'),
+    'id'            => 'gallery',
+    'description'   => 'Widget area in the Gallery',
+    'before_widget' => '<div class="widget-gallery">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
   //Left footer widget
   register_sidebar(array(
     'name'          => ('Left Footer'),
