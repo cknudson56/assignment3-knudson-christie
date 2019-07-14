@@ -113,7 +113,7 @@ footer p {
 
 @media (max-width: 904px) {
   header.five.columns {
-    width: 100%;
+    width: 100% !important;
   }
 }
 
