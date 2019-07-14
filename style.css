@@ -130,8 +130,8 @@ footer p {
   .nine.columns {
       padding-right: 20px !important;
   }
-  h3, h4, h5, h6 {
-    text-align: left !important;
+  h2.page-title, h3, h4, h5, h6 {
+    text-align: left;
   }
 }
 
