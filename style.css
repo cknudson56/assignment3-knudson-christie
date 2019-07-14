@@ -128,8 +128,7 @@ footer p {
 
 @media (min-width: 550px) {
   .nine.columns {
-      width: 74.0%;
-      padding-right: 20px;
+      padding-right: 20px !important;
   }
 }
 @media (min-width: 800px) {
