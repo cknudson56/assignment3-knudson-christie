@@ -15,8 +15,8 @@
   <header>
     <div class="row">
       <div class="five columns">
-        <h1 class="seven columns"><a href="<?php echo bloginfo('url'); ?>"><?php echo bloginfo('name'); ?></a></h1>
-        <h2 class="five columns"><?php echo bloginfo('description'); ?></h2>
+        <h1 class=""><a href="<?php echo bloginfo('url'); ?>"><?php echo bloginfo('name'); ?></a></h1>
+        <h2 class=""><?php echo bloginfo('description'); ?></h2>
       </div>
 
       <div class="seven columns">
