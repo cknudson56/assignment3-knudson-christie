@@ -14,7 +14,17 @@
 
   <header>
     <div class="row">
-      <h1 class="seven columns"><a href="<?php echo bloginfo('url'); ?>"><?php echo bloginfo('name'); ?></a></h1>
-      <h2 class="five columns"><?php echo bloginfo('description'); ?></h2>
+      <div class="five columns">
+        <h1 class="seven columns"><a href="<?php echo bloginfo('url'); ?>"><?php echo bloginfo('name'); ?></a></h1>
+        <h2 class="five columns"><?php echo bloginfo('description'); ?></h2>
+      </div>
+
+      <div class="seven columns">
+        <?php wp_nav_menu(array(
+          'theme_location' => 'header-menu',
+          'container-class' => 'menu-header'
+          ));
+        ?>
+      </div>
     </div>
   </header>
