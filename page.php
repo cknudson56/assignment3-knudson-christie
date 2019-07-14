@@ -2,7 +2,7 @@
 
 <div class="container">
     <div class="row">
-      <div class="nine columns">
+      <div class="nine columns page-list">
         <?php
           if(have_posts()){
             while(have_posts()){
