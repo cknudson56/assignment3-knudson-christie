@@ -181,6 +181,10 @@ p.credits {
   margin-top: 25px;
 }
 
+.four-o-four h3, .four-o-four p {
+  text-align: center;
+}
+
 @media (min-width: 550px) {
   .widget-home.widget-left {
     text-align: right;

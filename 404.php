@@ -3,7 +3,7 @@
 
 <div class="container">
 <div class="row">
-  <div class="twelve columns not-found space-updown">
+  <div class="twelve columns not-found space-updown four-o-four">
     <h2>Woof Woof!</h2>
     <h3>That Page is Not Found</h3>
     <p>Now if it was a frisbee, I'd be able to help you find it.</p>
