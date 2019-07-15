@@ -13,6 +13,26 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
   ));
+  //Left Home widget
+  register_sidebar(array(
+    'name'          => ('Left Home'),
+    'id'            => 'left-home',
+    'description'   => 'Left widget area in the Home',
+    'before_widget' => '<div class="widget-home widget-left">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
+  //Right Home widget
+  register_sidebar(array(
+    'name'          => ('Right Home'),
+    'id'            => 'right-home',
+    'description'   => 'Right widget area in the Home',
+    'before_widget' => '<div class="widget-home widget-right">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
   //Sidebar Widget
   register_sidebar(array(
     'name'          => ('Sidebar'),
