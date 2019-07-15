@@ -80,6 +80,19 @@ ul#menu-header-menu li {
  font-size: 2rem;
 }
 
+.widget-home.widget-left {
+  text-align: center;
+}
+.widget-home.widget-left h3 {
+    text-align: center;
+}
+.widget-home.widget-right {
+  text-align: center;
+}
+.widget-home.widget-right h3 {
+  text-align: center;
+}
+
 .index-row {
   padding-top: 30px !important;
 }
@@ -176,6 +189,14 @@ p.credits {
 .widget-home.widget-left h3 {
     text-align: right;
     padding: 10px 10px;
+}
+.widget-home.widget-right {
+  text-align: left;
+  padding: 10px 10px;
+}
+.widget-home.widget-right h3 {
+  text-align: left;
+  padding: 10px 10px;
 }
   .nine.columns {
       padding-right: 20px !important;
